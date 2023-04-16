@@ -1,0 +1,390 @@
+body {
+  padding: 0;
+  font-size: 14px;
+  font-family: "Dark-mode", sans-serif;
+}
+
+/* DA FARE 
+/*SISTEMARE CSS PERCHE I LINK DELLA NAVBAR VENGONO BLU SE CI PASSO SOPRA
+/* FARE SCRITTA SOTTO CON AUTORE 
+/* NBBBB FARE CHE QUANDO SCORRI GIU VA VIA LA NAVBAR, DISPLAY. FIXED
+*/
+
+/* -------------------------------------------------------------------------------- */
+/*HEADER*/
+/* -------------------------------------------------------------------------------- */
+
+/* TOP HEADER */
+/* Box sx: hamburger menu */
+.paddingHeaderRow {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.menuIcon {
+  padding-top: 14px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+}
+.menuIcon .navIcon {
+  background-color: black;
+  display: block;
+  height: 1.5px;
+  width: 23px;
+  position: relative;
+}
+.menuIcon .navIcon::before,
+.menuIcon .navIcon::after {
+  background-color: black;
+  content: "";
+  /* display: block; */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.menuIcon .navIcon::before {
+  top: 8px;
+}
+.menuIcon .navIcon::after {
+  top: -8px;
+}
+
+/* Box center: logo */
+.headerMainLogo {
+  width: 180px;
+}
+
+/* Box dx: search icon and user */
+.column3 {
+  align-items: center;
+}
+.iconContainer2 {
+  padding-left: 20px;
+}
+.iconDx {
+  height: 25px;
+  width: 25px;
+}
+@media (min-width: 768px) {
+  body {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .menuIcon {
+    padding-top: 28px;
+  }
+  .headerMainLogo {
+    width: 385px;
+  }
+}
+@media (max-width: 768px) {
+  .iconContainer1 .iconDx {
+    display: none;
+  }
+}
+
+/* NAVBAR */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  border-bottom: 1.8px solid black;
+  padding-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .navBar {
+    border-top: 1.8px solid black;
+    padding-top: 10px;
+  }
+}
+.hotBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.hotBar > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .hotBar > span {
+    display: block;
+    margin: 0 10px 0 0;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 1024px) {
+  .hotBar span {
+    display: none;
+  }
+}
+.hotBar img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.navItems {
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: hidden;
+  overflow-x: auto;
+  font-weight: 700;
+}
+.navItems a {
+  font-weight: var(--weight-black);
+  margin: 0 20px 0 0;
+  white-space: nowrap;
+}
+.navItems a,
+a:hover,
+a:visited,
+a:active,
+a:link {
+  color: black;
+  text-decoration: none;
+}
+.hotUpdate {
+  text-align: right;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .hotUpdate {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .hotUpdate {
+    display: block;
+  }
+}
+
+/* -------------------------------------------------------------------------------- */
+/*WHITE BANNER*/
+/* -------------------------------------------------------------------------------- */
+#banner {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+}
+
+/* -------------------------------------------------------------------------------- */
+/*MAIN CONTENT*/
+/* -------------------------------------------------------------------------------- */
+.mainContent {
+  padding-bottom: 20px;
+  /* margin-bottom: 60px; */
+  height: 600px;
+}
+.bottomColor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 400px;
+  background-color: #1c1c1c;
+  z-index: 0;
+  margin-top: 200px;
+  display: block;
+}
+.content {
+  background-image: url(Images/School.jpg);
+  min-height: 85vh;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  z-index: 1000;
+}
+.colorOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.content.container-fluid {
+  overflow: hidden;
+}
+mark {
+  background-color: #1c1c1c !important;
+  padding: 0 !important;
+  font-weight: bold;
+}
+.content h1 {
+  position: absolute;
+  font-family: "Dark-mode", sans-serif;
+  text-shadow: 0 0 2px #000;
+  max-width: 800px;
+  padding-right: 1.5rem;
+  padding-left: 2.5rem;
+  transform: translate(-10%, -30%);
+  line-height: 1.5 !important;
+}
+.author {
+  width: 20px;
+  height: 20px;
+}
+.authorrr {
+  position: absolute;
+  font-family: "Dark-mode", sans-serif;
+  text-shadow: 0 0 2px #000;
+  padding-right: 1.5rem;
+  padding-left: 2.5rem;
+  transform: translate(-43%, 350%);
+  line-height: 1.5 !important;
+}
+.yellow {
+  color: yellow;
+}
+
+@media (max-width: 900px) {
+  .authorrr {
+    transform: translate(-35%, 450%);
+  }
+}
+
+@media (max-width: 768px) {
+  /* per non allontare troppo il firstArticle che c'è dopo */
+  .mainContent {
+    height: 250px;
+    margin-bottom: -15px;
+  }
+  .content {
+    min-height: 40vh;
+  }
+  .content h1 {
+    font-size: 30px;
+    transform: translate(0, -50%);
+  }
+  .authorrr {
+    transform: translate(0, 200%);
+  }
+  .bottomColor {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .mainContent {
+    margin-bottom: -150px;
+  }
+  .content {
+    min-height: 30vh;
+  }
+  .content h1 {
+    font-size: 20px;
+    transform: translate(-10%, -50%);
+    max-width: 300px;
+  }
+  .authorrr {
+    transform: translate(-16%, 250%);
+  }
+}
+
+/* -------------------------------------------------------------------------------- */
+/*WHITE BANNER*/
+/* -------------------------------------------------------------------------------- */
+#banner2 {
+  height: 10px;
+  width: 100%;
+  background-color: white;
+}
+
+/* -------------------------------------------------------------------------------- */
+/*FIRST ARTICLE*/
+/* -------------------------------------------------------------------------------- */
+.first {
+  padding-top: 10px;
+  background-color: white;
+}
+.yellowBack {
+  /* MOBILE FIRST */
+  background-color: #eae522;
+  padding: 40px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.yellowBack h2 {
+  padding: 15px;
+}
+.noisyBack {
+  background-image: url(Images/yellowNoisy.png);
+  background-position: 50% 50%;
+}
+@media (max-width: 576px) {
+  .yellowBack {
+    margin-top: 170px;
+  }
+}
+@media (min-width: 768px) {
+  .rif {
+    margin-top: 80px;
+  }
+  .yellowBack {
+    position: absolute;
+    z-index: -100;
+    left: 0;
+    right: 0;
+    width: calc(100% - 300px);
+    height: calc(100% - 300px);
+    max-height: 460px;
+    padding: 0;
+    transform: translate(0, -30%);
+  }
+}
+@media (min-width: 1200px) {
+  .yellowBack {
+    margin-left: 5vh;
+    width: calc(100% - 400px);
+    height: calc(100% - 290px);
+  }
+  .first {
+    margin-left: 50px !important;
+  }
+}
+.texttt a {
+  text-decoration: none;
+  color: black;
+}
+.texttt a:hover {
+  color: black;
+}
+.imageee img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 576px) {
+  .firstStripe11,
+  .firstStripe12,
+  .firstStripe21,
+  .firstStripe22,
+  .secondStripe1,
+  .secondStripe2,
+  .thirdStripe11,
+  .thirdStripe12,
+  .thirdStripe21,
+  .thirdStripe22 {
+    display: flex;
+  }
+  .texttt {
+    /* per mandare il testo a sx e l'immagine a dx nel div */
+    order: -1;
+  }
+}
+@media (max-width: 768px) {
+  .main21 {
+    display: flex;
+  }
+  .texttt {
+    order: -1;
+  }
+}
