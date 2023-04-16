@@ -304,7 +304,7 @@ mark {
 /* -------------------------------------------------------------------------------- */
 .first {
   padding-top: 10px;
-  background-color: white;
+  background-color: #ededed;
 }
 .yellowBack {
   /* MOBILE FIRST */
@@ -394,16 +394,13 @@ mark {
 /* -------------------------------------------------------------------------------- */
 /* EMERGENZA IMMIGRAZIONE */
 /* -------------------------------------------------------------------------------- */
-/* .firstBanner {
-  background-color: aqua;
+.emergenzaImmigrazione h2 {
+  margin-top: 10px;
 }
-.secondBanner {
-  background-color: yellowgreen;
+.segui {
+  width: 80px;
+  height: 29px;
 }
-
-.thirdBanner {
-  background-color: lightcoral;
-} */
 .second {
   padding-top: 10px;
 }
@@ -421,6 +418,13 @@ mark {
 }
 
 @media (max-width: 768px) {
+  .second {
+    margin-left: 0px !important;
+  }
+
+  .emergenzaImmigrazione h2 {
+    margin-left: 8px;
+  }
   .secondBanner,
   .third1,
   .third2,
@@ -429,6 +433,7 @@ mark {
     padding-bottom: 5px;
     padding-top: 5px;
     margin: 15px;
+    margin-left: 2px !important;
   }
   .textSecond {
     order: -1;
