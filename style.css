@@ -300,7 +300,7 @@ mark {
 }
 
 /* -------------------------------------------------------------------------------- */
-/*FIRST ARTICLE*/
+/*IN PRIMO PIANO*/
 /* -------------------------------------------------------------------------------- */
 .first {
   padding-top: 10px;
@@ -386,5 +386,38 @@ mark {
   }
   .texttt {
     order: -1;
+  }
+}
+
+/* -------------------------------------------------------------------------------- */
+/* EMERGENZA IMMIGRAZIONE */
+/* -------------------------------------------------------------------------------- */
+.firstBanner {
+  background-color: aqua;
+}
+.secondBanner {
+  background-color: yellowgreen;
+}
+
+.thirdBanner {
+  background-color: lightcoral;
+}
+
+@media (max-width: 768px) {
+  .secondBanner,
+  .third1,
+  .third2,
+  .third3 {
+    display: flex;
+  }
+  .textSecond {
+    order: -1;
+  }
+}
+@media (min-width: 992px) {
+  .third1,
+  .third2,
+  .third3 {
+    display: flex;
   }
 }
