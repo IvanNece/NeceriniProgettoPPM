@@ -351,6 +351,7 @@ mark {
     margin-left: 50px !important;
   }
 }
+
 .texttt a {
   text-decoration: none;
   color: black;
@@ -362,6 +363,7 @@ mark {
   width: 100%;
   height: 100%;
 }
+
 @media (max-width: 576px) {
   .firstStripe11,
   .firstStripe12,
@@ -392,7 +394,7 @@ mark {
 /* -------------------------------------------------------------------------------- */
 /* EMERGENZA IMMIGRAZIONE */
 /* -------------------------------------------------------------------------------- */
-.firstBanner {
+/* .firstBanner {
   background-color: aqua;
 }
 .secondBanner {
@@ -401,6 +403,21 @@ mark {
 
 .thirdBanner {
   background-color: lightcoral;
+} */
+.second {
+  padding-top: 10px;
+}
+
+.textSecond a {
+  text-decoration: none;
+  color: black;
+}
+.textSecond a:hover {
+  color: black;
+}
+.imageSecond img {
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
@@ -409,6 +426,9 @@ mark {
   .third2,
   .third3 {
     display: flex;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 15px;
   }
   .textSecond {
     order: -1;
@@ -419,5 +439,8 @@ mark {
   .third2,
   .third3 {
     display: flex;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 15px;
   }
 }
