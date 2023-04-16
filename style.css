@@ -6,7 +6,7 @@ body {
 
 /* DA FARE 
 /*SISTEMARE CSS PERCHE I LINK DELLA NAVBAR VENGONO BLU SE CI PASSO SOPRA
-/* FARE SCRITTA SOTTO CON AUTORE 
+/* FARE PADDING ALLE IMMAGINE DEL FIRST ARTICLE
 /* NBBBB FARE CHE QUANDO SCORRI GIU VA VIA LA NAVBAR, DISPLAY. FIXED
 */
 
@@ -93,6 +93,13 @@ body {
   padding-bottom: 10px;
   width: 100%;
   box-sizing: border-box;
+}
+.toHide {
+  text-decoration: none;
+  color: black;
+}
+.toHide a:hover {
+  color: black;
 }
 @media (max-width: 768px) {
   .navBar {
@@ -401,11 +408,7 @@ mark {
   width: 80px;
   height: 29px;
 }
-.second {
-  padding-top: 10px;
-}
-
-.textSecond a {
+.textSecond {
   text-decoration: none;
   color: black;
 }
