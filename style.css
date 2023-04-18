@@ -10,7 +10,8 @@ body {
 /* PADDING GENERALI A FINE FILE
 
 /* NBBBB FARE CHE QUANDO SCORRI GIU VA VIA LA NAVBAR, DISPLAY. FIXED
-/* FARE CHE SE PREMO CERCA VIENE IL MENU A TENDINA
+
+/* FARE CHE SE PREMO CERCA VIENE IL MENU A TENDINA (forse)
 
 /* FARE UN'ALTRA SEZIONE
 /* SEZIONE VIDEO
@@ -405,7 +406,7 @@ mark {
 }
 
 /* -------------------------------------------------------------------------------- */
-/* EMERGENZA IMMIGRAZIONE */
+/* EMERGENZA IMMIGRAZIONE & SCENARI POLITICI */
 /* -------------------------------------------------------------------------------- */
 .emergenzaImmigrazione h2 {
   margin-top: 30px;
@@ -480,6 +481,10 @@ mark {
     margin: 15px;
   }
 }
+
+/* -------------------------------------------------------------------------------- */
+/*SEZIONE DI ALTRO TIPO (SCENARI ECONOMICI E ATTENTI AL PORTAFOGLIO)*/
+/* -------------------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------------------- */
 /*FOOTER*/
