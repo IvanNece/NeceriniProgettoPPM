@@ -8,14 +8,12 @@ body {
 /* NBNBNB: SISTEMARE PRIMO PIANO GIALLO QUANDO VA EXTRALARGE
 /* SISTEMARE PADDING BODY NEL MIN WIDTH 768PX PER BARRE NERE CHE NON ARRIVANO FINO IN FONDO
 /* FARE PADDING ALLE IMMAGINE DEL FIRST ARTICLE
-/* PADDING GENERALI A FINE FILE
+/* PADDING GENERALI A FINE FILE, a tutto, ricontrollare tutti padding anche responisive (padding video)
 /* levare --weight-black e padding 10 10 10 10 senza unita di misura
 
 /* FARE CHE SE PREMO CERCA VIENE IL MENU A TENDINA (forse)
 
-/* NBBBB FARE CHE QUANDO SCORRI GIU VA VIA LA NAVBAR, DISPLAY. FIXED
-/* FARE UN'ALTRA SEZIONE (1fatta), o copiarle
-/* SEZIONE VIDEO, modificare quella di albe
+/* FARE UN'ALTRA SEZIONE (1fatta), o mettere codice uguale da sopra
 */
 
 /* -------------------------------------------------------------------------------- */
@@ -573,12 +571,87 @@ mark {
 }
 
 /* -------------------------------------------------------------------------------- */
+/*VIDEO*/
+/* -------------------------------------------------------------------------------- */
+.videoSection {
+  background-color: #1c1c1c;
+  padding: 6px 0;
+}
+.videoTitle {
+  font-size: clamp(26px, 3.5vw, 34px);
+  margin: 0 0 0.8em 0;
+  line-height: 1.3;
+  color: white;
+}
+.ytVideo {
+  aspect-ratio: auto 320 / 180;
+}
+.videoMainCard {
+  border: none;
+  background-color: #1c1c1c !important;
+}
+.videoInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: start;
+  align-content: normal;
+  justify-content: start;
+}
+.infoTitle {
+  text-decoration: underline;
+  padding: 2px 0;
+  font-weight: 600;
+  color: white;
+  font-size: 12px;
+  margin: 0 6px 0 0;
+}
+.autoreVideo {
+  color: white;
+  text-decoration: underline;
+}
+.infoTime {
+  text-decoration: none;
+  padding: 2px 0;
+  font-weight: 400;
+  color: #919191;
+  font-size: 12px;
+  margin: 0 6px 0 0;
+}
+.myCardTitle {
+  color: white;
+  font-size: 31px;
+  min-height: 2.8em;
+  font-weight: 600;
+  width: 100%;
+  margin: 6px 0 0 0;
+}
+.videoCardBody {
+  /* TODO cambia padding e margini della card della colonna di sinistra a piacimento */
+}
+.horizCard {
+  display: flex;
+  flex-direction: row !important;
+  border: none;
+  background-color: #1c1c1c !important;
+}
+.horizVideoCardBody {
+  padding-left: 10px;
+  padding-bottom: 6px;
+  margin-top: 10px;
+}
+.horizTitle {
+  font-size: 1.5em;
+}
+
+/* -------------------------------------------------------------------------------- */
 /*FOOTER*/
 /* -------------------------------------------------------------------------------- */
 .mainFooter {
   border-top: black solid;
   padding: 20px;
   border-bottom: black solid;
+  margin-top: 30px;
 }
 
 .myul {
