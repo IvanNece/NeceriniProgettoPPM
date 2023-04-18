@@ -6,26 +6,32 @@ body {
 
 /* DA FARE 
 /* NBNBNB: SISTEMARE PRIMO PIANO GIALLO QUANDO VA EXTRALARGE
+/* SISTEMARE PADDING BODY NEL MIN WIDTH 768PX PER BARRE NERE CHE NON ARRIVANO FINO IN FONDO
 /* FARE PADDING ALLE IMMAGINE DEL FIRST ARTICLE
 /* PADDING GENERALI A FINE FILE
-
-/* NBBBB FARE CHE QUANDO SCORRI GIU VA VIA LA NAVBAR, DISPLAY. FIXED
+/* levare --weight-black e padding 10 10 10 10 senza unita di misura
 
 /* FARE CHE SE PREMO CERCA VIENE IL MENU A TENDINA (forse)
 
-/* FARE UN'ALTRA SEZIONE
-/* SEZIONE VIDEO
+/* NBBBB FARE CHE QUANDO SCORRI GIU VA VIA LA NAVBAR, DISPLAY. FIXED
+/* FARE UN'ALTRA SEZIONE (1fatta), o copiarle
+/* SEZIONE VIDEO, modificare quella di albe
 */
 
 /* -------------------------------------------------------------------------------- */
 /*HEADER*/
 /* -------------------------------------------------------------------------------- */
+.header {
+  margin-top: 80px;
+}
 
 /* TOP HEADER */
 /* Box sx: hamburger menu */
 .paddingHeaderRow {
   padding-top: 10px;
   padding-bottom: 20px;
+  background-color: white;
+  /* METTERE LINEA NERA SOTTO E FARLO RESPONSIVE */
 }
 .menuIcon {
   padding-top: 14px;
@@ -60,6 +66,17 @@ body {
 .headerMainLogo {
   width: 180px;
 }
+.headerMainLogo2 {
+  display: none;
+  height: 50px;
+  width: 50px;
+}
+.changeImg .headerMainLogo {
+  display: none;
+}
+.changeImg .headerMainLogo2 {
+  display: block;
+}
 
 /* Box dx: search icon and user */
 .column3 {
@@ -73,6 +90,7 @@ body {
   width: 25px;
 }
 @media (min-width: 768px) {
+  /* SISTEMARE PADDING */
   body {
     padding-left: 50px;
     padding-right: 50px;
@@ -88,6 +106,11 @@ body {
   .iconContainer1 .iconDx {
     display: none;
   }
+}
+
+/* per js, aggiunge bordo sotto al topheader quando scrollo */
+.addBorder {
+  border-bottom: 2px solid black;
 }
 
 /* NAVBAR */
@@ -182,6 +205,11 @@ a:link {
   .hotUpdate {
     display: block;
   }
+}
+
+/* per il javascript, per far si che la navbar vada via quando scrollo */
+.nvbRemove {
+  display: none;
 }
 
 /* -------------------------------------------------------------------------------- */

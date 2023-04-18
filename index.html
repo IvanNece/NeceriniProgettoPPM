@@ -17,6 +17,12 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!-- Bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <!-- BODY -->
@@ -24,20 +30,26 @@
     <!-- HEADER -->
     <header class="header">
       <!-- Top Header -->
-      <div class="container-fluid">
-        <div class="row paddingHeaderRow">
+      <div class="container-fluid fixed-top">
+        <div class="row paddingHeaderRow" id="addBorderScroll">
           <div class="col-2 col-md d-flex justify-content-start">
             <label class="menuIcon">
               <span class="navIcon"></span>
             </label>
           </div>
           <div class="col-8 col-md d-flex justify-content-center text-center">
-            <a href="index.html"
+            <a href="index.html" id="changeLogo"
               ><img
                 class="headerMainLogo"
                 src="Images/Logo.svg"
                 alt="Il Giornale.it"
-            /></a>
+              />
+              <img
+                class="headerMainLogo2"
+                src="Images/G_appear.png"
+                alt="Logo G"
+              />
+            </a>
           </div>
           <div class="col-2 col-md d-flex justify-content-end column3">
             <div class="iconContainer1">
@@ -51,7 +63,7 @@
       </div>
 
       <!-- Navbar -->
-      <div class="navBar">
+      <div class="navBar" id="navBarHeader">
         <div class="hotBar">
           <span>IN EVIDENZA</span>
           <img src="Images/FlameIcon.png" alt="Hot" />
@@ -1396,5 +1408,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- COLLEGO LO SCRIPT -->
+    <script src="script.js"></script>
   </body>
 </html>
