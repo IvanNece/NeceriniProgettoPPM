@@ -8,6 +8,7 @@ body {
 /* FARE PADDING ALLE IMMAGINE DEL FIRST ARTICLE
 /* NBBBB FARE CHE QUANDO SCORRI GIU VA VIA LA NAVBAR, DISPLAY. FIXED
 /* FARE CHE SE PREMO CERCA VIENE IL MEN
+/* FINIRE LINEA SEOTTO "SEGUI" DELLA SECONDA SEZIONE
 /* FARE UN'ALTRA SEZIONE
 /* SEZIONE VIDEO
 /* FOOTER
@@ -453,5 +454,92 @@ mark {
     padding-bottom: 5px;
     padding-top: 5px;
     margin: 15px;
+  }
+}
+
+/* -------------------------------------------------------------------------------- */
+/*FOOTER*/
+/* -------------------------------------------------------------------------------- */
+.mainFooter {
+  border-top: black solid;
+  padding: 20px;
+  border-bottom: black solid;
+}
+
+.myul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.footerListTitle {
+  display: block;
+  font-size: 17px; /* messa ad occhio, non è quella del sito */
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  text-align: initial;
+}
+
+.footerTitleLink,
+.footerTitleLink:link,
+.footerTitleLink:visited {
+  color: black;
+}
+
+.footerTitleLink:hover {
+  color: black;
+}
+
+.footerElement,
+.footerElement:link,
+.footerElement:visited {
+  font-weight: 700;
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.footerElement:hover {
+  color: #1c1c1c;
+}
+
+.secondFooter {
+  padding: 20px;
+  border-bottom: black solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: normal;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.bottom {
+  margin: 0;
+  padding: 20px;
+  color: grey;
+}
+
+@media (max-width: 768px) {
+  .myFootCol {
+    text-align: center;
+  }
+
+  .footerListTitle {
+    text-align: center;
+  }
+
+  .secondFooter {
+    padding: 20px;
+    border-bottom: black solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .bottom {
+    padding: 10px;
   }
 }
