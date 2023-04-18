@@ -286,13 +286,11 @@ mark {
 .yellow {
   color: yellow;
 }
-
 @media (max-width: 900px) {
   .authorrr {
     transform: translate(-35%, 450%);
   }
 }
-
 @media (max-width: 768px) {
   /* per non allontare troppo il firstArticle che c'è dopo */
   .mainContent {
@@ -391,7 +389,6 @@ mark {
     margin-left: 50px !important;
   }
 }
-
 .texttt a {
   text-decoration: none;
   color: black;
@@ -403,7 +400,6 @@ mark {
   width: 100%;
   height: 100%;
 }
-
 @media (max-width: 576px) {
   .firstStripe11,
   .firstStripe12,
@@ -519,7 +515,6 @@ mark {
 .contSez {
   margin-left: 0px !important;
 }
-
 .leggiTuttiSez {
   text-decoration: none;
   color: #1c1c1c;
@@ -537,7 +532,6 @@ mark {
   font-weight: bold;
   padding: 10 10 10 10;
 }
-
 @media (max-width: 768px) {
   .sez11,
   .sez12,
@@ -578,10 +572,11 @@ mark {
   padding: 6px 0;
 }
 .videoTitle {
-  font-size: clamp(26px, 3.5vw, 34px);
+  font-size: clamp(35px, 3.5vw, 35px);
   margin: 0 0 0.8em 0;
   line-height: 1.3;
   color: white;
+  font-weight: 300;
 }
 .ytVideo {
   aspect-ratio: auto 320 / 180;
@@ -610,6 +605,10 @@ mark {
   color: white;
   text-decoration: underline;
 }
+.mainVideo {
+  width: 100%;
+  height: 100%;
+}
 .infoTime {
   text-decoration: none;
   padding: 2px 0;
@@ -625,9 +624,6 @@ mark {
   font-weight: 600;
   width: 100%;
   margin: 6px 0 0 0;
-}
-.videoCardBody {
-  /* TODO cambia padding e margini della card della colonna di sinistra a piacimento */
 }
 .horizCard {
   display: flex;
@@ -653,12 +649,10 @@ mark {
   border-bottom: black solid;
   margin-top: 30px;
 }
-
 .myul {
   padding: 0;
   list-style-type: none;
 }
-
 .footerListTitle {
   display: block;
   font-size: 17px; /* messa ad occhio, non è quella del sito */
@@ -666,17 +660,14 @@ mark {
   text-transform: uppercase;
   text-align: initial;
 }
-
 .footerTitleLink,
 .footerTitleLink:link,
 .footerTitleLink:visited {
   color: black;
 }
-
 .footerTitleLink:hover {
   color: black;
 }
-
 .footerElement,
 .footerElement:link,
 .footerElement:visited {
@@ -685,11 +676,9 @@ mark {
   margin: 10px 0;
   font-size: 14px;
 }
-
 .footerElement:hover {
   color: #1c1c1c;
 }
-
 .secondFooter {
   padding: 20px;
   border-bottom: black solid;
@@ -700,22 +689,18 @@ mark {
   align-items: flex-start;
   justify-content: space-between;
 }
-
 .bottom {
   margin: 0;
   padding: 20px;
   color: grey;
 }
-
 @media (max-width: 768px) {
   .myFootCol {
     text-align: center;
   }
-
   .footerListTitle {
     text-align: center;
   }
-
   .secondFooter {
     padding: 20px;
     border-bottom: black solid;
@@ -726,7 +711,6 @@ mark {
     align-items: center;
     justify-content: space-between;
   }
-
   .bottom {
     padding: 10px;
   }
