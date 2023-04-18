@@ -257,6 +257,11 @@ a:link {
   -moz-background-size: cover;
   -o-background-size: cover;
   z-index: 1000;
+
+  background-position: center;
+  width: 1080px;
+  height: 600px;
+  /* margin-left: 200px; */
 }
 .colorOverlay {
   position: absolute;
@@ -377,6 +382,7 @@ mark {
 @media (min-width: 768px) {
   .rif {
     margin-top: 80px;
+    margin-left: 100px;
   }
   .yellowBack {
     position: absolute;
@@ -435,6 +441,55 @@ mark {
   }
   .texttt {
     order: -1;
+  }
+}
+
+/* -------------------------------------------------------------------------------- */
+/* PADDING GENERICI */
+/* -------------------------------------------------------------------------------- */
+.firstStripe11,
+.firstStripe12,
+.firstStripe21,
+.firstStripe22,
+.secondStripe1,
+.secondStripe2,
+.thirdStripe11,
+.thirdStripe12,
+.thirdStripe21,
+.thirdStripe22 {
+  padding-bottom: 10px;
+}
+
+.emergenzaImmigrazione,
+.scenariPolitici,
+.rowSez,
+.superRow,
+.videoSection {
+  padding-bottom: 30px !important;
+}
+
+.emergenzaImmigrazione,
+.scenariPolitici {
+  margin-left: 10px !important;
+}
+@media (max-width: 768px) {
+  .emergenzaImmigrazione,
+  .scenariPolitici {
+    margin-left: 10px !important;
+  }
+  .rowSez,
+  .superRow {
+    margin-left: -3px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .emergenzaImmigrazione,
+  .scenariPolitici {
+    margin-left: 30px !important;
+  }
+  .rowSez,
+  .superRow {
+    margin-left: 15px !important;
   }
 }
 
@@ -678,6 +733,7 @@ mark {
   flex-direction: row !important;
   border: none;
   background-color: #1c1c1c !important;
+  padding: 10px;
 }
 .horizVideoCardBody {
   padding-left: 10px;
