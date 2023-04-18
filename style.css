@@ -408,6 +408,9 @@ mark {
 /* -------------------------------------------------------------------------------- */
 /* EMERGENZA IMMIGRAZIONE & SCENARI POLITICI */
 /* -------------------------------------------------------------------------------- */
+.second {
+  margin-left: 0px !important;
+}
 .emergenzaImmigrazione h2 {
   margin-top: 30px;
 }
@@ -433,6 +436,7 @@ mark {
   justify-content: end;
   padding-top: 16px;
   padding-bottom: 16px;
+  padding-right: 229px;
 }
 .leggiTutti a:hover {
   color: black;
@@ -469,6 +473,7 @@ mark {
   .leggiTutti {
     justify-content: center;
     padding-top: 16px;
+    padding-right: 0px;
   }
 }
 @media (min-width: 992px) {
@@ -485,6 +490,59 @@ mark {
 /* -------------------------------------------------------------------------------- */
 /*SEZIONE DI ALTRO TIPO (SCENARI ECONOMICI E ATTENTI AL PORTAFOGLIO)*/
 /* -------------------------------------------------------------------------------- */
+.contSez {
+  margin-left: 0px !important;
+}
+
+.leggiTuttiSez {
+  text-decoration: none;
+  color: #1c1c1c;
+  display: flex;
+  justify-content: end;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.leggiTuttiSez a:hover {
+  color: black;
+}
+.leggiTuttiSez a {
+  font-size: 16px;
+  background-color: yellow;
+  font-weight: bold;
+  padding: 10 10 10 10;
+}
+
+@media (max-width: 768px) {
+  .sez11,
+  .sez12,
+  .sez13,
+  .sez21,
+  .sez22,
+  .sez23 {
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 15px;
+  }
+  .leggiTuttiSez {
+    justify-content: center;
+    padding-top: 16px;
+    padding-right: 0px;
+  }
+}
+@media (min-width: 992px) {
+  .sez11,
+  .sez12,
+  .sez13,
+  .sez21,
+  .sez22,
+  .sez23 {
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 15px;
+  }
+}
 
 /* -------------------------------------------------------------------------------- */
 /*FOOTER*/
