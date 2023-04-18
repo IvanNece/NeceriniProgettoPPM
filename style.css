@@ -5,16 +5,15 @@ body {
 }
 
 /* DA FARE 
+/* NBNBNB: SISTEMARE PRIMO PIANO GIALLO QUANDO VA EXTRALARGE
 /* FARE PADDING ALLE IMMAGINE DEL FIRST ARTICLE
 /* PADDING GENERALI A FINE FILE
-/* SISTEMARE PRIMO PIANO GIALLO QUANDO VA EXTRALARGE
 
 /* NBBBB FARE CHE QUANDO SCORRI GIU VA VIA LA NAVBAR, DISPLAY. FIXED
 /* FARE CHE SE PREMO CERCA VIENE IL MENU A TENDINA
 
 /* FARE UN'ALTRA SEZIONE
 /* SEZIONE VIDEO
-/* FOOTER
 */
 
 /* -------------------------------------------------------------------------------- */
@@ -308,7 +307,7 @@ mark {
 /*WHITE BANNER*/
 /* -------------------------------------------------------------------------------- */
 #banner2 {
-  height: 10px;
+  height: 30px;
   width: 100%;
   background-color: white;
 }
@@ -409,7 +408,7 @@ mark {
 /* EMERGENZA IMMIGRAZIONE */
 /* -------------------------------------------------------------------------------- */
 .emergenzaImmigrazione h2 {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 .segui {
   width: 80px;
@@ -447,8 +446,10 @@ mark {
   .second {
     margin-left: 0px !important;
   }
-
   .emergenzaImmigrazione h2 {
+    margin-left: 8px;
+  }
+  .scenariPolitici h2 {
     margin-left: 8px;
   }
   .secondBanner,
