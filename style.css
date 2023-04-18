@@ -8,7 +8,7 @@ body {
 /* NBNBNB: SISTEMARE PRIMO PIANO GIALLO QUANDO VA EXTRALARGE
 /* NBNBB: SISTEMARE tutti I PADDING E I MARGIN IN GENERALE, DOVUTO DALL'AVER TOLTO PADDING DEL BODY,
 immagine del first article, padding generali e responsive in tutto il sito (video anche)
-/* levare --weight-black e padding 10 10 10 10 senza unita di misura
+/* levare padding 10 10 10 10 senza unita di misura
 */
 
 /* -------------------------------------------------------------------------------- */
@@ -22,7 +22,7 @@ immagine del first article, padding generali e responsive in tutto il sito (vide
 /* Box sx: hamburger menu */
 .paddingHeaderRow {
   padding-top: 10px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   background-color: white;
   /* METTERE LINEA NERA SOTTO E FARLO RESPONSIVE */
 }
@@ -64,11 +64,23 @@ immagine del first article, padding generali e responsive in tutto il sito (vide
   height: 50px;
   width: 50px;
 }
+
+/* javascript */
 .changeImg .headerMainLogo {
   display: none;
 }
 .changeImg .headerMainLogo2 {
   display: block;
+}
+@media (max-width: 768px) {
+  .changeImg .headerMainLogo2 {
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+  }
+  .iconDx {
+    margin-top: -10px !important;
+  }
 }
 
 /* Box dx: search icon and user */
@@ -148,6 +160,9 @@ immagine del first article, padding generali e responsive in tutto il sito (vide
     margin: 0 10px 0 0;
     white-space: nowrap;
   }
+  /* .header {
+    padding-left: 58px;
+  } */
 }
 @media (max-width: 1024px) {
   .hotBar span {
@@ -171,7 +186,7 @@ immagine del first article, padding generali e responsive in tutto il sito (vide
   font-weight: 700;
 }
 .navItems a {
-  font-weight: var(--weight-black);
+  font-weight: 650;
   margin: 0 20px 0 0;
   white-space: nowrap;
 }
@@ -195,7 +210,9 @@ a:link {
 }
 @media (min-width: 768px) {
   .hotUpdate {
-    display: block;
+    /* block */
+    display: flex;
+    padding-right: 60px;
   }
 }
 
