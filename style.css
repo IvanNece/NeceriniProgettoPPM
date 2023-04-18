@@ -6,9 +6,8 @@ body {
 
 /* DA FARE 
 /* NBNBNB: SISTEMARE PRIMO PIANO GIALLO QUANDO VA EXTRALARGE
-/* SISTEMARE PADDING BODY NEL MIN WIDTH 768PX PER BARRE NERE CHE NON ARRIVANO FINO IN FONDO
-/* FARE PADDING ALLE IMMAGINE DEL FIRST ARTICLE
-/* PADDING GENERALI A FINE FILE, a tutto, ricontrollare tutti padding anche responisive (padding video)
+/* NBNBB: SISTEMARE tutti I PADDING E I MARGIN IN GENERALE, DOVUTO DALL'AVER TOLTO PADDING DEL BODY,
+immagine del first article, padding generali e responsive in tutto il sito (video anche)
 /* levare --weight-black e padding 10 10 10 10 senza unita di misura
 
 /* FARE CHE SE PREMO CERCA VIENE IL MENU A TENDINA (forse)
@@ -88,11 +87,10 @@ body {
   width: 25px;
 }
 @media (min-width: 768px) {
-  /* SISTEMARE PADDING */
-  body {
+  /* body {
     padding-left: 50px;
     padding-right: 50px;
-  }
+  } */
   .menuIcon {
     padding-top: 28px;
   }
@@ -561,6 +559,36 @@ mark {
     padding-bottom: 5px;
     padding-top: 5px;
     margin: 15px;
+  }
+}
+
+/* -------------------------------------------------------------------------------- */
+/*SEZIONE DI ALTRO TIPO + COLONNA EDITORIALI*/
+/* -------------------------------------------------------------------------------- */
+.contenitoreee {
+  margin-left: 7px;
+}
+.descEdit {
+  font-size: 20px;
+  font-weight: 600;
+}
+.immagineEditore {
+  width: 60px;
+  height: 60px;
+}
+.timingEditore {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 2px;
+}
+.autoreEditore {
+  text-decoration: underline;
+  text-decoration-color: aqua;
+  text-decoration-thickness: 4px;
+}
+@media (max-width: 786px) {
+  .descEdit {
+    font-size: 24px;
   }
 }
 
