@@ -4,13 +4,6 @@ body {
   font-family: "Dark-mode", sans-serif;
 }
 
-/* DA FARE 
-/* NBNBNB: SISTEMARE PRIMO PIANO GIALLO QUANDO VA EXTRALARGE
-/* NBNBB: SISTEMARE tutti I PADDING E I MARGIN IN GENERALE, DOVUTO DALL'AVER TOLTO PADDING DEL BODY,
-immagine del first article, padding generali e responsive in tutto il sito (video anche)
-/* sistemare carattere Ivan Necerini nel main content
-*/
-
 /* -------------------------------------------------------------------------------- */
 /*HEADER*/
 /* -------------------------------------------------------------------------------- */
@@ -478,6 +471,7 @@ mark {
     height: calc(100% - 300px);
     max-height: 460px;
     padding: 0;
+    padding-top: 15px;
     transform: translate(0, -30%);
   }
 }
@@ -738,6 +732,8 @@ mark {
   text-decoration: underline;
   text-decoration-color: aqua;
   text-decoration-thickness: 4px;
+  font-family: Calluna, Georgia, Serif;
+  font-size: 11px;
 }
 @media (max-width: 786px) {
   .descEdit {
