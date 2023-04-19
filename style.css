@@ -65,6 +65,7 @@ body {
 .changeImg .headerMainLogo2 {
   display: block;
 }
+
 @media (max-width: 768px) {
   .changeImg .headerMainLogo2 {
     justify-content: center;
@@ -153,9 +154,6 @@ body {
     margin: 0 10px 0 0;
     white-space: nowrap;
   }
-  /* .header {
-    padding-left: 58px;
-  } */
 }
 @media (max-width: 1024px) {
   .hotBar span {
@@ -228,9 +226,7 @@ a:link {
 /* -------------------------------------------------------------------------------- */
 .mainContent {
   padding-bottom: 20px;
-  /* margin-bottom: 60px; */
   height: 600px;
-  /* AGGIUNTA SENSEI */
   overflow: hidden;
 }
 .bottomColor {
@@ -256,7 +252,6 @@ a:link {
   background-position: center;
   width: 900px;
   height: 500px;
-  /* margin-left: 200px; */
 }
 mark {
   background-color: #1c1c1c !important;
@@ -269,7 +264,6 @@ mark {
   text-shadow: 0 0 2px #000;
   max-width: 800px;
   padding-right: 1.5rem;
-  /* padding-left: 2.5rem; */
   transform: translate(-10%, -10%);
   line-height: 1.5 !important;
 }
@@ -551,6 +545,20 @@ mark {
 .scenariPolitici {
   margin-left: 10px !important;
 }
+@media (max-width: 576px) {
+  .firstStripe11,
+  .firstStripe12,
+  .firstStripe21,
+  .firstStripe22,
+  .secondStripe1,
+  .secondStripe2,
+  .thirdStripe11,
+  .thirdStripe12,
+  .thirdStripe21,
+  .thirdStripe22 {
+    padding-bottom: 30px;
+  }
+}
 @media (max-width: 768px) {
   .emergenzaImmigrazione,
   .scenariPolitici {
@@ -629,10 +637,10 @@ mark {
   .third2,
   .third3 {
     display: flex;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     padding-top: 5px;
-    margin: 15px;
-    margin-left: 2px !important;
+    /* margin: 15px; */
+    /* margin-left: 2px !important; */
   }
   .textSecond {
     order: -1;
@@ -648,7 +656,7 @@ mark {
   .third2,
   .third3 {
     display: flex;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     padding-top: 5px;
     margin: 15px;
   }
@@ -685,9 +693,9 @@ mark {
   .sez22,
   .sez23 {
     display: flex;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     padding-top: 5px;
-    margin: 15px;
+    /* margin: 15px; */
   }
   .leggiTuttiSez {
     justify-content: center;
@@ -703,7 +711,7 @@ mark {
   .sez22,
   .sez23 {
     display: flex;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     padding-top: 5px;
     margin: 15px;
   }
