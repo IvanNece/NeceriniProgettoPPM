@@ -225,7 +225,7 @@ a:link {
 /*WHITE BANNER*/
 /* -------------------------------------------------------------------------------- */
 #banner {
-  height: 60px;
+  height: 50px;
   width: 100%;
   background-color: white;
 }
@@ -237,6 +237,8 @@ a:link {
   padding-bottom: 20px;
   /* margin-bottom: 60px; */
   height: 600px;
+  /* AGGIUNTA SENSEI */
+  overflow: hidden;
 }
 .bottomColor {
   position: absolute;
@@ -259,17 +261,9 @@ a:link {
   z-index: 1000;
 
   background-position: center;
-  width: 1080px;
-  height: 600px;
+  width: 900px;
+  height: 500px;
   /* margin-left: 200px; */
-}
-.colorOverlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.content.container-fluid {
-  overflow: hidden;
 }
 mark {
   background-color: #1c1c1c !important;
@@ -282,8 +276,8 @@ mark {
   text-shadow: 0 0 2px #000;
   max-width: 800px;
   padding-right: 1.5rem;
-  padding-left: 2.5rem;
-  transform: translate(-10%, -30%);
+  /* padding-left: 2.5rem; */
+  transform: translate(-10%, -10%);
   line-height: 1.5 !important;
 }
 .author {
@@ -296,53 +290,135 @@ mark {
   text-shadow: 0 0 2px #000;
   padding-right: 1.5rem;
   padding-left: 2.5rem;
-  transform: translate(-43%, 350%);
+  transform: translate(-53%, 650%);
   line-height: 1.5 !important;
 }
 .yellow {
   color: yellow;
 }
-@media (max-width: 900px) {
-  .authorrr {
-    transform: translate(-35%, 450%);
+.colorOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.content.container-fluid {
+  overflow: hidden;
+}
+.container {
+  padding: 20px;
+}
+
+/* @media (min-width: 576px) {
+  .mx-sm-3 {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
   }
 }
-@media (max-width: 768px) {
-  /* per non allontare troppo il firstArticle che c'è dopo */
-  .mainContent {
-    height: 250px;
-    margin-bottom: -15px;
+
+@media (min-width: 768px) {
+  .mx-md-5 {
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
   }
-  .content {
-    min-height: 40vh;
+} */
+
+@media (min-width: 576px) {
+  .paddingBigDisplay {
+    padding-left: 20px !important;
+    max-width: 590px !important;
   }
   .content h1 {
-    font-size: 30px;
-    transform: translate(0, -50%);
+    transform: translate(-8%, -30%);
   }
   .authorrr {
-    transform: translate(0, 200%);
-  }
-  .bottomColor {
-    display: none;
+    transform: translate(-45%, 485%);
   }
 }
+
+@media (min-width: 786px) {
+  .paddingBigDisplay {
+    padding-left: 60px !important;
+    max-width: 1200px !important;
+  }
+  .authorrr {
+    transform: translate(-48%, 480%);
+  }
+  .content h1 {
+    transform: translate(-10%, -18%);
+  }
+  .authorrr {
+    transform: translate(-45%, 515%);
+  }
+}
+
+@media (min-width: 992px) {
+  .paddingBigDisplay {
+    padding-left: 130px !important;
+    max-width: 1200px !important;
+  }
+  .content h1 {
+    transform: translate(-10%, -20%);
+  }
+  .content h1 {
+    transform: translate(-10%, -18%);
+  }
+  .authorrr {
+    transform: translate(-55%, 580%);
+  }
+}
+
 @media (max-width: 576px) {
-  .mainContent {
-    margin-bottom: -150px;
+  .paddingBigDisplay {
+    padding-left: 6px !important;
+    max-width: 297px !important;
   }
   .content {
     min-height: 30vh;
   }
   .content h1 {
-    font-size: 20px;
-    transform: translate(-10%, -50%);
+    font-size: 25px !important;
+    transform: translate(-21%, -25%) !important;
     max-width: 300px;
   }
   .authorrr {
-    transform: translate(-16%, 250%);
+    transform: translate(-50%, 662%);
+  }
+  .mainContent {
+    margin-bottom: -150px;
   }
 }
+
+@media (max-width: 768px) {
+  /* per non allontare troppo il firstArticle che c'è dopo */
+  .mainContent {
+    height: 250px;
+    /* margin-bottom: -15px; */
+  }
+  .content {
+    min-height: 40vh;
+    background-size: contain;
+    height: 300px; /* altezza del div */
+  }
+  .content h1 {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+  #banner {
+    height: 30px;
+  }
+  /* .authorrr {
+    transform: translate(-65%, 480%);
+  } */
+  .bottomColor {
+    display: none;
+  }
+}
+
+/* @media (max-width: 900px) {
+  .authorrr {
+    transform: translate(-35%, 450%);
+  }
+} */
 
 /* -------------------------------------------------------------------------------- */
 /*WHITE BANNER*/
