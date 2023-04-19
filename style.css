@@ -8,7 +8,7 @@ body {
 /* NBNBNB: SISTEMARE PRIMO PIANO GIALLO QUANDO VA EXTRALARGE
 /* NBNBB: SISTEMARE tutti I PADDING E I MARGIN IN GENERALE, DOVUTO DALL'AVER TOLTO PADDING DEL BODY,
 immagine del first article, padding generali e responsive in tutto il sito (video anche)
-/* levare padding 10 10 10 10 senza unita di misura
+/* sistemare carattere Ivan Necerini nel main content
 */
 
 /* -------------------------------------------------------------------------------- */
@@ -347,7 +347,7 @@ mark {
     transform: translate(-10%, -18%);
   }
   .authorrr {
-    transform: translate(-45%, 515%);
+    transform: translate(-45%, 545%);
   }
 }
 
@@ -364,6 +364,15 @@ mark {
   }
   .authorrr {
     transform: translate(-55%, 580%);
+  }
+}
+
+@media (min-width: 1200px) {
+  .content h1 {
+    transform: translate(-10%, -18%);
+  }
+  .authorrr {
+    transform: translate(-57%, 610%);
   }
 }
 
